@@ -1,0 +1,14 @@
+tocTab[tocTab.length] = new Array("0.2.1:1", "", "Domain Objects", "EARoot/EA2/EA1/EA83.htm", "175.png", "6", "0", "", "Logical diagram0","{658E697E-0672-42ff-8E7D-A895DCA9259E}");
+tocTab[tocTab.length] = new Array("0.2.1:2", "", "AccessLevels", "EARoot/EA2/EA1/EA86.htm", "247.png", "E52", "0", "", "Enumeration0","{EECE95AA-5453-455f-8D8A-63887C8FF6B2}");
+tocTab[tocTab.length] = new Array("0.2.1:3", "", "Account", "EARoot/EA2/EA1/EA87.htm", "5.png", "E56", "0", "", "Class0","{606DC340-D69A-42aa-B524-89D04A4A5DB4}");
+tocTab[tocTab.length] = new Array("0.2.1:4", "", "Account Details", "EARoot/EA2/EA1/EA88.htm", "5.png", "E35", "0", "", "Class0","{92BAF2CC-877E-4bd6-9188-F4ADAA49D692}");
+tocTab[tocTab.length] = new Array("0.2.1:5", "", "Bank", "EARoot/EA2/EA1/EA89.htm", "5.png", "E49", "0", "", "Class0","{8550C605-C0BA-4c66-BF1C-049B785ECC49}");
+tocTab[tocTab.length] = new Array("0.2.1:6", "", "Client", "EARoot/EA2/EA1/EA90.htm", "5.png", "E36", "0", "", "Class0","{7A3BBD36-5C78-45f2-AFEE-66139B515BE6}");
+tocTab[tocTab.length] = new Array("0.2.1:7", "", "ClientTypes", "EARoot/EA2/EA1/EA91.htm", "247.png", "E53", "0", "", "Enumeration0","{03B2B01F-A995-4887-8758-D87E91E1DB8C}");
+tocTab[tocTab.length] = new Array("0.2.1:8", "", "ContactDetails", "EARoot/EA2/EA1/EA92.htm", "5.png", "E58", "0", "", "Class0","{CB5B5D99-676F-4e87-8615-D6737B85C196}");
+tocTab[tocTab.length] = new Array("0.2.1:9", "", "Currency", "EARoot/EA2/EA1/EA93.htm", "5.png", "E50", "0", "", "Class0","{D1B1ADB6-38AC-4532-A064-CAB183AA4796}");
+tocTab[tocTab.length] = new Array("0.2.1:10", "", "GrantTypes", "EARoot/EA2/EA1/EA94.htm", "247.png", "E51", "0", "", "Enumeration0","{A160574A-0885-41c3-9CDD-D2C911E0AFB2}");
+tocTab[tocTab.length] = new Array("0.2.1:11", "", "Ownerships and Grants", "EARoot/EA2/EA1/EA95.htm", "5.png", "E38", "0", "", "Class0","{CBB87C7D-DBC0-4b1d-BEAB-D46851209E83}");
+tocTab[tocTab.length] = new Array("0.2.1:12", "", "StatusChanges", "EARoot/EA2/EA1/EA96.htm", "5.png", "E57", "0", "", "Class0","{C7F84F88-A206-46d3-9067-2BEC7DBE4A1C}");
+tocTab[tocTab.length] = new Array("0.2.1:13", "", "TransferOperations", "EARoot/EA2/EA1/EA97.htm", "5.png", "E60", "0", "", "Class0","{1DDB3FFC-66FB-4cca-917E-F68B2EAA2C7C}");
+tocTab[tocTab.length] = new Array("0.2.1:14", "", "TransferOrders", "EARoot/EA2/EA1/EA98.htm", "5.png", "E54", "0", "", "Class0","{0ABFDBA3-458C-44a1-8A44-417E1AB31BDD}");

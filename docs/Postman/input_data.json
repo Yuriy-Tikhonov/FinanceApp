@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "272eb76d-71d9-407a-a6a8-bcf6dc33c292",
+		"name": "com.finance",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET accounts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/accounts?clientId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"accounts"
+					],
+					"query": [
+						{
+							"key": "clientId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"senderIban\":\"IBAN000123450000000000009854\",\r\n\"recipientIban\":\"IBAN000123450000000000000000\",\r\n\"amount\":100.0,\r\n\"currency\":\"EUR\",\r\n\"notes\":\"Own funds\",\r\n\"createdBy\":\"1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8181/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Account",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"iban\":\"IBAN000123450000000000009876\",\r\n\"bic\":\"BIC001\",\r\n\"amount\":100.0,\r\n\"currency\":\"EUR\",\r\n\"clientId\":\"1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8181/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "External Transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"senderIban\":\"IBAN000123450000000000009854\",\r\n\"recipientIban\":\"123\",\r\n\"amount\":100.0,\r\n\"currency\":\"EUR\",\r\n\"notes\":\"Own funds\",\r\n\"createdBy\":\"1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8181/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cancel Transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"senderIban\":\"222\",\r\n\"recipientIban\":\"IBAN00099999000000000000000\",\r\n\"amount\":100.0,\r\n\"currency\":\"EUR\",\r\n\"notes\":\"Own funds\",\r\n\"createdBy\":\"1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8181/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cancel Transfer 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"senderIban\":\"222\",\r\n\"recipientIban\":\"333\",\r\n\"amount\":100.0,\r\n\"currency\":\"EUR\",\r\n\"notes\":\"Own funds\",\r\n\"createdBy\":\"1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8181/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Transfers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8181/transfers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

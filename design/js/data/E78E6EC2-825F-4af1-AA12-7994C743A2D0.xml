@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Domain Model", "EARoot/EA2/EA79.htm", "175.png", "5", "0", "", "Logical diagram0","{28928563-C5F8-45ed-BDFE-5EDD10AE1EF8}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Domain Objects", "EARoot/EA2/EA1/EA85.htm", "4.png", "", "", "{C973A747-1B6E-45cb-81A6-7AB472E73782}", "Package");
